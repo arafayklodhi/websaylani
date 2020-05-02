@@ -1,0 +1,412 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    display: block;
+}
+#top{
+    height: 50px;
+    width: 100%;
+    background-color:rgb(80, 80, 250); 
+}
+#htop{
+    /* margin: 25px 50px 75px 100px; */
+    padding: 5px 250px 150px 80px;
+    /* margin-bottom: 1em; */
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: white;
+}
+.it{
+    /* background-color: rgb(80, 80, 250); ; */
+    margin-left: 30px;
+    padding-left: 2px;
+    /* padding-right: 15px; */
+}
+.mphoto{
+    padding-top: 3em;
+}
+.topb{
+    border: none;
+    display: inline-block;
+    /* margin-right: 5px; */
+    /* padding-right: 10px; */
+    color: rgb(50, 205, 50);
+}
+.fixn{
+    position: fixed;
+    /* list-style-type: none; */
+    /* margin: 0px; */
+    /* padding: 0px; */
+    height: 70px;
+    width: 100%;
+    background-color:whitesmoke ;
+    box-sizing: border-box; 
+    
+}
+.ulo{
+    position: fixed;
+    list-style-type: none;
+    text-align: center;
+    display: inline-flex;
+    /* margin: 10px auto 10px 600px; */
+    /* padding: 10px 20px 10px 15px; */
+}
+.fixn img{
+    /* margin: 5px 10px 1px 10px; */
+    padding: 10px 25px 1px 50px;
+}
+.ulo li{
+    width: 100px;
+    margin: 5px 10px 25px 10px;
+    padding: 1px 2px 2px 10px;
+}
+.ulo li a{
+    text-decoration: none;
+    color: black;
+}
+.active , .ulo li :hover{
+    background: rgb(80, 80, 250);
+    border-radius: 3px;
+}
+.cpic{
+    display: block;
+    margin-left: auto;
+    margin: auto;
+    width: 100%;
+}
+#news{
+    text-align: center;
+    color: chartreuse;
+    font-size: 18px;
+    background-color: blue;
+    /* width: 10px; */
+    padding: 0.1em;
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-top: 0.1em;
+}
+.intro h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    /* background-image: linear-gradient(to right, rgba(110, 98, 126, 0), rgb(18, 231, 71)); */
+    /* background: rgb(2,0,36); */
+    background-image: linear-gradient(rgba(9, 30, 121, 0.844) 35%, rgb(0, 255, 64) 100%);
+    font-size: 200%;
+    font-family: sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    margin-top: 15px;    
+}
+.intro img{
+    margin-left: 650px;
+    margin-bottom: 50px;
+}
+.intro p{
+    text-align: justify;
+    display: block;
+    width: 70%;
+    line-height: 200%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14.5px;
+    margin-left: 180px;
+    margin-top: 5px;
+    opacity: 70%;
+}
+.nc{
+    background-color: rgb(21, 93, 209);
+    height: 280px;
+    color: white;
+    margin-top: 3em;
+    /* padding-top: 3em; */
+}
+.nc .khana{
+    float: left;
+    display: inline-block;
+    width: 25%;
+}
+.nc .khana img{
+    margin-left: 150px;
+    margin-top: 30px;
+}   
+.nc .khana h1{
+    margin-top: 8px;
+    margin-left: 80px;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 3em;
+    display: inline-block;
+}
+.nc .khana h2{
+    padding-bottom: 5px;
+    margin-top: 1.5px;
+    margin-left: 50px;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.3em;
+    
+}
+.nc .khana h3{
+    display: inline-block;
+    margin-top: 0.5px;
+    margin-left: 90px;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.5em;
+    color: green;
+}
+.nc .family{
+    width: 25%;
+    float: left;
+    display: inline-block;
+}
+.nc .family img{
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.nc .family h1{
+    margin-top: 10px;
+    margin-left: 100px;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 3em;
+}
+.nc .family h2{
+    padding-bottom: 5px;
+    margin-top: 1.5px;
+    margin-left: 60px;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.3em;
+    /* display: inline-block; */
+    
+}
+.nc .family h3{
+    margin-top: 0.5px;
+    margin-left: 120px;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.5em;
+    color:green;
+}
+.nc .medical{
+    width: 25%;
+    float: left;
+    display: inline-block;
+}
+.nc .medical img{
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.nc .medical h1{
+    margin-top: 10px;
+    margin-left: 100px;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 3em;
+}
+.nc .medical h2{
+    padding-bottom: 5px;
+    margin-top: 0.5px;
+    margin-left: 120px;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.3em;
+    
+}
+.nc .medical h3{
+    margin-top: 0.5px;
+    margin-left: 120px;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.5em;
+    color:green;
+}
+.nc .education{
+    width: 25%;
+    float: left;
+    display: inline-block;
+}
+.nc .education img{
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.nc .education h1{
+    margin-top: 8px;
+    margin-left: 100px;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 3em;
+}
+.nc .education h2{
+    /* padding-bottom: 5px; */
+    /* margin-top: 0.5px; */
+    margin-left: 110px;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.3em;
+    display: inline-block;
+    
+}
+.nc .education h3{
+    margin-top: 0.5px;
+    margin-left: 120px;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.3em;
+    color:green;
+}
+.what{
+    display: block;
+}
+.what #w{
+    /* text-align: center; */
+    margin-left: 450px;
+    font-family: 'Source Serif Pro', serif;
+    color: blue;
+    display: inline-block;   
+}
+.what #a{
+    display: inline-block;
+    /* text-align: center; */
+    font-family: 'Source Serif Pro', serif;
+    color: green;   
+}
+#wlogo{
+    margin-left: 600px;
+}
+.wrap{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    transition: 0.9s;
+    width: 310px;
+    height: 200px;
+    background: #fff;
+    /* text-align: center; */
+    font-size: 16px;
+    font-family: sans-serif;
+    float: left;
+    margin: 10px;
+}
+.img{
+ /* display: block; */
+/* display: inline; */
+ margin-left: auto;
+margin-right: auto; 
+margin-bottom: auto;
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0 .6);
+}
+.nine{
+    padding: 95px 16px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #316dc3;
+} 
+.nine h4{
+    padding-bottom: 55px;
+}
+
+.gallery{
+float: none;
+margin: 5%;
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+color: #316dc3;
+}
+.ali{
+    width: 1200px;
+    min-height: 400px;
+    background: #fff;
+    margin: 70px auto 0;
+    display: flex;
+    flex-direction: row;
+
+}
+.ali .tim{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background:#fff;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.ali .tim .imgBox{
+position: relative;
+overflow: hidden;
+}
+.ali .tim .imgBox img{
+max-width: 205%;
+transition: transform 2s;
+}
+.ali .tim:hover .imgBox img{
+    transform: scale(1.2);
+}
+.ali.tim.imgBox.details{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    
+    background: rgba(0, 0, 0, 0.6);
+}
+ .main-footer{
+    background-color: #222;
+    height: 350px;
+    width: 100%;
+    padding: 30px;
+   
+}
+.first-section{
+    width: 32%;
+    height: 100%;
+    float: left;
+    font-size: 15px;
+    margin: 1em;
+}
+.second-section{
+    width: 32%;
+    height: 100%;
+    float: left;
+}
+.useful{
+    color: #efefef;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+
+}
+.third-section{
+    width: 32%;
+    height: 100%;
+    float: left;
+    margin: 8px;
+}
+.fix{
+    background: #316dc3;
+}
+.rt{
+    text-decoration: none;
+    font-size: 1em;
+} 
+ 
+
+#myBtn {
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 18.5%;
+    left: 77.25%;
+    max-width: 30px;
+    width: 100%;
+    font-size: 12px;
+    border-color: rgba(85, 85, 85, 0.2);
+    background-color: rgb(100,100,100);
+    padding: .5px;
+    border-radius: 4px;
+
+}
+/*On Hover Color Change*/
+#myBtn:hover {
+    background-color: #7dbbf1;
+}
+.mission{
+    float: left;
+}
